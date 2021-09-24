@@ -21,6 +21,8 @@ You have a business with several offices; you want to lease phone lines to conne
   - The advantage of Prim’s algorithm is its complexity, which is better than Kruskal’s algorithm. Therefore, Prim’s algorithm is helpful when dealing with dense graphs that have lots of edges.
   - However, Prim’s algorithm doesn’t allow us much control over the chosen edges when multiple edges with the same weight occur. The reason is that only the edges discovered so far are stored inside the queue, rather than all the edges like in Kruskal’s algorithm.
 
+  <img src="https://www.baeldung.com/wp-content/ql-cache/quicklatex.com-a748a2b3474677f82b24dfc5c38e6f02_l3.svg">
+
 ### Questions:
   - What is a minimum spanning tree?
   - The time complexity of both algorithms (worst and best)?
